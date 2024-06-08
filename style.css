@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+ font-family: "Outfit", sans-serif;
+}
+
+
+.component{
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    border-radius: 1rem;
+    color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    box-shadow: 0  1rem  1rem 2rem hsl(213, 55%, 10%);
+}
+
+.text-wrapper h1 , .text-wrapper p{
+    margin-bottom: 1rem;
+}
+
+.text-wrapper{
+    padding: 1rem;
+}
+
+.text-wrapper h1{
+    font-size: 24px;
+}
+
+.text-wrapper p{
+    color: hsl(215, 51%, 70%);
+}
+
+.image-wrapper{
+    height: 288px;
+    width: 288px;
+    margin-bottom: 1rem;
+    align-self: center;
+
+}
+
+.image-wrapper img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+
+.span{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.span span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.span p{
+    margin-bottom: 1rem;
+}
+
+.span img{
+    height: 20px;
+    width: 20px;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.span span:first-of-type img{
+    height: 20px;
+    width: 12px;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.avatar p{
+    display: inline-flex;
+    margin-bottom: 0;
+    
+}
+
+.avatar p span{
+    color: white;
+    margin-left: 2px;
+}
+
+.avatar img{
+    width: 25px;
+    height: 25px;
+    margin-right: 1rem;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.attribution{
+    display: none;
+}
