@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: hsl(217, 54%, 11%);
- font-family: "Outfit", sans-serif;
+    font-family: "Outfit", sans-serif;
 }
 
 
@@ -36,6 +36,10 @@ body{
     font-size: 24px;
 }
 
+.text-wrapper h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+
 .text-wrapper p{
     color: hsl(215, 51%, 70%);
 }
@@ -45,7 +49,33 @@ body{
     width: 288px;
     margin-bottom: 1rem;
     align-self: center;
+    position: relative;
+}
 
+.image-view{
+    position: absolute;
+    width: 288px;
+    height: 288px;
+}
+
+.image-view-background{
+    background-color: hsla(178, 100%, 50%,0.4);
+    width: 288px;
+    height: 288px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    visibility: hidden;
+}
+
+.image-view-background img{
+    max-width: 3rem;
+    max-height: 3rem;
+}
+
+.image-view:hover .image-view-background{
+    visibility: visible;
 }
 
 .image-wrapper img{
@@ -85,6 +115,10 @@ body{
     width: 12px;
 }
 
+#eth{
+    color: hsl(178, 100%, 50%);
+}
+
 .avatar{
     display: flex;
     align-items: center;
@@ -99,6 +133,10 @@ body{
 .avatar p span{
     color: white;
     margin-left: 2px;
+}
+
+.avatar p span:hover{
+    color: hsl(178, 100%, 50%);
 }
 
 .avatar img{
